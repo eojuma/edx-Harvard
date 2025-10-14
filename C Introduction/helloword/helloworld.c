@@ -1,3 +1,4 @@
+// NB:- To run a C program succesfully,every time a change is made to the program then it must be compiled.
 #include <stdio.h>
 #include <cs50.h>
 
@@ -9,4 +10,3 @@ int main()
     int age = get_int("What is your age %s: ", greeting);
     printf("I am %d years old\n", age);
 }
-// NB:- To run a C program succesfully,every time a change is made to the program then it must be compiled.
