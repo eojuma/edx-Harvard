@@ -7,5 +7,8 @@ int main(){
 	printbricks(rows);
 }
 void printbricks(int bricks){
-	printf("#");
+	for (int i = 0 ;i<bricks;i++){
+
+		printf("#");
+	}
 }
