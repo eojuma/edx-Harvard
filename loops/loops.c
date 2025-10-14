@@ -8,7 +8,7 @@ int main(){
 }
 
 void printrows( int bricks){
-	for (i=0;i<rows;i++){
+	for (int i=0;i<rows;i++){
 
 		printf("#\n");
 	}
