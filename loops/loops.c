@@ -2,8 +2,14 @@
 #include <cs50.h>
 void printbricks(int bricks);
 int main(){
-	int rows = get_int("How many rows should the pyramid have?: ");
-	// printf("%i\n",rows);
+
+	int rows;
+	do{
+
+		int rows = get_int("How many rows should the pyramid have?: ");
+		// printf("%i\n",rows);
+	}
+	while(rows<1)
 	for (int j=0;j<rows;j++){
 
 		printbricks(j+1);
