@@ -3,5 +3,9 @@
 
 int main(){
 	int rows = get_int("How many rows should the pyramid have?: \n");
-	printf("%i\n",rows);
+	// printf("%i\n",rows);
+	printbricks(rows);
+}
+void printbricks(int bricks){
+	printf("#");
 }
