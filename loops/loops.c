@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
-
+void printrows(int bricks);
 int main(){
 	int rows = get_int("how long do you want our pyramid to be?\n");
 	// printf("%i\n",rows);
-	printf(4);
+	printrows(4);
 }
 
 void printrows( int bricks){
