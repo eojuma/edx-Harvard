@@ -4,9 +4,9 @@ void printrows(int bricks);
 int main(){
 	int rows = get_int("how long do you want our pyramid to be?\n");
 	// printf("%i\n",rows);
-	for (int i=0;i<rows;i++){
+	for (int i=0;i<rows+1;i++){
 
-		printrows(rows);
+		printrows(i);
 	}
 }
 
