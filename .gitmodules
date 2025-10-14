@@ -1,0 +1,3 @@
+[submodule "C Introduction/libcs50"]
+	path = C Introduction/libcs50
+	url = https://github.com/cs50/libcs50.git
