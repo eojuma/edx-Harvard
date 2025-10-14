@@ -10,6 +10,7 @@ int main(){
 void printrows( int bricks){
 	for (int i=0;i<bricks;i++){
 
-		printf("#\n");
+		printf("#");
 	}
+	printf("\n");
 }
