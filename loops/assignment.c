@@ -5,7 +5,7 @@ int main(){
     int rows = get_int("Number of rows: ");
     // printf("%d",rows);
     for (int j=0;j<rows;j++){
-
+  int space=rows-1
         printbricks(j);
     }
 
