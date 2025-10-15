@@ -6,7 +6,7 @@ int main(){
     // printf("%d",rows);
     for (int j=1;j<=rows;j++){
 //   int space=rows-1;
-        printbricks(rows-j, "s");
+        printbricks(rows-j, " ");
         printbricks(j, "#");
         printf("\n");
     }
