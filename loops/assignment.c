@@ -11,7 +11,7 @@ int main(){
 
 }
 void printbricks(int bricks){
-    for (int i=0;i<bricks;i++){
+    for (int i=bricks;i>0;i--){
 
         printf("#");
     }
