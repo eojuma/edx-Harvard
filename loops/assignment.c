@@ -2,7 +2,12 @@
 #include <cs50.h>
 void printbricks(int bricks, string chr);
 int main(){
-    int rows = get_int("Number of rows: ");
+    int rows;
+    do{
+
+        rows = get_int("Number of rows: ");
+    }
+    while(rows<1);
     // printf("%d",rows);
     for (int j=1;j<=rows;j++){
         printbricks(rows-j, " ");
