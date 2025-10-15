@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-void printbricks(int bricks, string chr);
+void printbricks(int bricks, char chr);
 int main(){
     int rows;
     do{
@@ -9,16 +9,16 @@ int main(){
     }
     while(rows<1);
     // printf("%d",rows);
-    for (int j=1;j<=rows;j++){
-        printbricks(rows-j, " ");
-        printbricks(j, "#");
+    for (int j=0;j<rows;j++){
+        printbricks(rows-j, ' ');
+        printbricks(j+1, '#');
         printf("\n");
     }
 
 }
-void printbricks(int bricks, string chr){
+void printbricks(int bricks, char chr){
     for (int i=0;i<bricks;i++){
 
-        printf("%s",chr);
+        printf("%c",chr);
     }
 }
