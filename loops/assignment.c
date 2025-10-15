@@ -5,7 +5,6 @@ int main(){
     int rows = get_int("Number of rows: ");
     // printf("%d",rows);
     for (int j=1;j<=rows;j++){
-//   int space=rows-1;
         printbricks(rows-j, " ");
         printbricks(j, "#");
         printf("\n");
@@ -17,5 +16,4 @@ void printbricks(int bricks, string chr){
 
         printf("%s",chr);
     }
-    // printf("\n");
 }
