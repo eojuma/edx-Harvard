@@ -15,3 +15,4 @@ int main(void){
 
 //The other way to create arrays could be:
 // int num[3]={2,3,4};
+
