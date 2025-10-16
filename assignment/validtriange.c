@@ -3,6 +3,7 @@
 bool validtriangle(int a,int b,int c);
 int main(void){
 printf("%i\n",validtriangle(3,4,5));
+p
 
 }
 bool validtriangle(int a,int b,int c){
@@ -10,8 +11,7 @@ bool validtriangle(int a,int b,int c){
         return false;
     }else if ((a+b)>c || (a+c)>b || (c+b)>a){
         return false;
-    }else{
-        return true;
     }
+        return true;
 
 }
