@@ -1,3 +1,4 @@
+// Create a right aligned pyramid whose number of rows is to be determined by the user.
 #include <stdio.h>
 #include <cs50.h>
 void printbricks(int bricks, char chr);
