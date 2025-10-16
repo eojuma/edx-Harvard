@@ -4,7 +4,7 @@
 #include <string.h>
 int main(void){
 string str=get_string("Word: ");
-len=strlen(str)
+int len=strlen(str);
 for (int i=0;i<len-1;i++){
     if (str[i]>str[i+1]){
         printf("no\n");
