@@ -9,6 +9,6 @@ for (int i=0;i<strlen(str);i++){
         printf("no\n");
         return 0;
     }
-    printf("Yes\n");
 }
+    printf("Yes\n");
 }
