@@ -7,7 +7,7 @@ printf("%i\n",validtriangle(1,4,2));
 
 }
 bool validtriangle(int a,int b,int c){
-    if ((a+b+c)<1){
+    if (((a+b+c)<1) ||(a<=0) || (b<=0) || (c<=0)){
         return false;
     }else if ((a+b)<c || (a+c)<b || (c+b)<a){
         return false;
