@@ -9,7 +9,7 @@ printf("John\n");
 bool validtriangle(int a,int b,int c){
     if ((a+b+c)<1){
         return false;
-    }else if ((a+b)>c || (a+c)>b || (c+b)>a){
+    }else if ((a+b)<c || (a+c)<b || (c+b)<a){
         return false;
     }
         return true;
