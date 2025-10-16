@@ -3,7 +3,7 @@
 int main(void){
 
     // Simple array creation
-    int num[3];
+    int num[];
     num[0]=2;
     num[1]=3;
     num[2]=4;
