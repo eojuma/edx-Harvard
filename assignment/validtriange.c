@@ -2,7 +2,7 @@
 #include <cs50.h>
 bool validtriangle(int a,int b,int c);
 int main(void){
-printf("%i\n",validtriangle(2,4,1));
+printf("%i\n",validtriangle(3,4,5));
 
 }
 bool validtriangle(int a,int b,int c){
