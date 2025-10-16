@@ -5,9 +5,10 @@
 int main(void){
 string str=get_string("Word: ");
 for (int i=0;i<strlen(str);i++){
-    if str[i]>str[i+1]{
+    if (str[i]>str[i+1]){
         printf("no\n");
         return 0;
     }
+    printf("Yes\n");
 }
 }
