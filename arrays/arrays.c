@@ -10,4 +10,5 @@ int main(void){
     for (int i=0;i<3;i++){
         sum+=num[i];
     }
+    printf("%i\n",sum);
 }
