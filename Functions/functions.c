@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
-int add(int a,b);
+int add(int a, int b);
 int main(void){
-printf(add(2,5));
+printf("%d\n",add(2,5));
 }
 
-int add(int a,b){
+int add(int a,int b){
     return a+b;
 }
