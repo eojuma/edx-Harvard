@@ -3,7 +3,7 @@
 bool validtriangle(int a,int b,int c);
 int main(void){
 printf("%i\n",validtriangle(3,4,5));
-printf("John");
+printf("John\n");
 
 }
 bool validtriangle(int a,int b,int c){
