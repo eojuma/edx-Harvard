@@ -8,7 +8,7 @@ int main(void){
     num[1]=3;
     num[2]=4;
     int sum=0;
-    for (i=0;i<strlen(num);i++){
+    for (int i=0;i<strlen(num);i++){
         sum+=num[i]
     }
 }
