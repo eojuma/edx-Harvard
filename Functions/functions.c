@@ -4,7 +4,7 @@ int add(int a, int b);
 float mult(float a,float b);
 int main(void){
 printf("%d\n",add(2,5));
-printf("%f",mult(2,5));
+printf("%f\n",mult(2.5,5.3));
 }
 
 int add(int a,int b){
