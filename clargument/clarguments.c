@@ -6,10 +6,10 @@ int main(int argc, string argv[]){
     string str=argv[1];
     int len=strlen(str);
     for (int i=0;i<len-1;i++){
-        if (str[i]<str[i+1]){
-            printf("Yes\n");
+        if (str[i]>str[i+1]){
+            printf("no\n");
             return 0;
         }
     }
-    printf("No\n");
+    printf("Yes\n");
 }
