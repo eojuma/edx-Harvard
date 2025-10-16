@@ -2,6 +2,11 @@
 #include <cs50.h>
 
 int main(int argc, string argv[]){
-    string t=argv[1];
-    if (str)
+    string str=argv[1];
+    len=strlen(str)
+    for (int i=0;i<len-1;i++){
+        if (str[i]<str[i+1]){
+            printf("No\n")
+        }
+    }
 }
