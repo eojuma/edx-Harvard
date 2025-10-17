@@ -10,7 +10,7 @@ typedef struct{
 
 int main(void){
 
-	person people[3]{
+	person people[3];{
 		people[0].name="Evans Juma";
 		people[0].number="0720787683";
 
