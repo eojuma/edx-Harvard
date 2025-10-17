@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-#iclude <strings.h>
+#include <strings.h>
 
 
 typedef struct{
