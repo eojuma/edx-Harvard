@@ -66,7 +66,7 @@ Throughout this course, I’ll be working with:
 | Week | Topic                  | Status     |
 |------|------------------------|------------|
 | 1    | C: Basics              | ✅ Done|
-| 2    | Arrays, Algorithms     | 🔜 Coming soon |
+| 2    | Arrays, Algorithms     | ✅ Done|
 | 3    | Memory, Pointers       | 🔜 Coming soon |
 | 4    | Data Structures        | 🔜 Coming soon |
 | 5    | Hash Tables, More DS   | 🔜 Coming soon |
