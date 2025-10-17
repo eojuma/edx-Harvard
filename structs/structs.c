@@ -21,7 +21,7 @@ int main(void){
 		people[2].name="Kevin Wesonga";
 		people[2].number="0707152873";
 
-	string name=get_string("Employee name: \n");
+	string name=get_string("Employee name: ");
 		for (int i=0;i<3;i++){
 		if (strcmp(name,people[i].name)==0){
 			printf("%s and the number is %s \n",name,people[i].number);
