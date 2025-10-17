@@ -6,11 +6,11 @@
 typedef struct{
 	string name;
 	string number;
-}person;
+}PERSON;
 
 int main(void){
 
-	person people[3];
+	PERSON people[3];
 		people[0].name="Evans Juma";
 		people[0].number="0720787683";
 
