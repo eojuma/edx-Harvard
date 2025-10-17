@@ -24,7 +24,7 @@ int main(void){
 	string name=get_string("Employee name: ");
 		for (int i=0;i<3;i++){
 		if (strcmp(name,people[i].name)==0){
-			printf("%s and the number is %s \n",name,people[i].number);
+			printf("%s is found	and	the	number is %s \n",name,people[i].number);
 			return 0;
 		}
 	}
