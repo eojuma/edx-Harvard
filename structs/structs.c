@@ -23,7 +23,7 @@ int main(void){
 
 	string name=get_string("Employee name: \n");
 		for (int i=0;i<3;i++){
-		if (strcmp(name,person.name[i])==0){
+		if (strcmp(name,people[i].name)==0){
 			printf("%s and the number is %s \n",name,number);
 			return 0;
 		}
