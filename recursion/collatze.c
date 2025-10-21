@@ -9,16 +9,14 @@ printf("%d\n",colatze(num));
 
 
 int colatze(int n){
-int tracker=0;
+
     if (n==1){
         return 0;
-    }
-    if (n%2==0){
+    }else if (n%2==0){
 
         return 1+colatze(n/2);
-        tracker++;
-    }
-    if (n%2 !=0){
+
+    }else{
 
       return 1+colatze((3*n)+1);
 
