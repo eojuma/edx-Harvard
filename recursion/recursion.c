@@ -8,7 +8,7 @@ int main(void){
     do{
 
          rows=get_int("Heihgt of the pyramid: ");
-    }while(rows<0);
+    }while(rows<0);  
     pyramid(rows);
 
 }
