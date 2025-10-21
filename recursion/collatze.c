@@ -4,7 +4,7 @@ int colatze(int n,int tracker);
 
 int main(void){
 int num=get_int("Num: ");
-printf("%d\n",colatze(num));
+printf("%d\n",colatze(num,0));
 }
 
 
