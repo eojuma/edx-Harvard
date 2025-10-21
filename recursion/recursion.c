@@ -4,7 +4,11 @@ void pyramid(int bricks);
 
 
 int main(void){
-    int rows=get_int("Heihgt of the pyramid: ");
+    int rows;
+    do{
+
+         rows=get_int("Heihgt of the pyramid: ");
+    }while(rows<0);
     pyramid(rows);
 
 }
