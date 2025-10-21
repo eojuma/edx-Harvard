@@ -4,7 +4,9 @@
 int main(void){
 
 }
-void colatze(int n){
+int colatze(int n){
 
-    if 
+    if (n==1){
+        return 0;
+    }
 }
