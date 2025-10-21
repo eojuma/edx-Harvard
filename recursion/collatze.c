@@ -19,5 +19,5 @@ int colatze(int n){
     if (n%2 !=0){
         return colatze((3*n)+1);
     }
-    return;
+    return 0;
 }
