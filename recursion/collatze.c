@@ -14,10 +14,12 @@ int tracker=0;
         return 0;
     }
     if (n%2==0){
+        int tracker=0;
         colatze(n/2);
         tracker++;
     }
     if (n%2 !=0){
+        int tracker =0;
         colatze((3*n)+1);
         tracker++;
     }
