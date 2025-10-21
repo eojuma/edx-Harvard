@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-int colatze(int n,in);
+int colatze(int n,int tracker);
 
 int main(void){
 int num=get_int("Num: ");
