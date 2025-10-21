@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <cs50.h>
-
+int factorial(int n);
 int main(void){
-
+int num=get_int("Num: \n");
+factorial(num);
 }
 
-void factorial(int n){
+int factorial(int n){
     if (n==0){
         return 1;
     }
 
-    factorial(n-1);
+    return factorial(n-1)*n;
 
 }
