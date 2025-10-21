@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
-
+int colatze(int n);
 int main(void){
-
+int num=get_int("Num: ");
+printf("%d\n",colatze(num));
 }
 int colatze(int n){
 
