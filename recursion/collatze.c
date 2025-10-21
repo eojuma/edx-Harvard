@@ -12,12 +12,11 @@ int colatze(int n){
 
     if (n==1){
         return 0;
-    }else if (n%2==0){
+    }
+    if (n%2==0){
         return colatze(n/2);
-    }else if (n%2 !=0){
+    }
+    if (n%2 !=0){
         return colatze((3*n)+1);
-    }else{
-
-        return 0;
     }
 }
