@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <cs50.h>
-int colatze(int n,int tracker);
+int colatze(int n);
 
 int main(void){
 int num=get_int("Num: ");
-printf("%d\n",colatze(num,0));
+printf("%d\n",colatze(num));
 }
 
 
-int colatze(int n,int tracker){
-
+int colatze(int n){
+int tracker=0;
     if (n==1){
         return 0;
     }
     if (n%2==0){
-
+       
         colatze(n/2);
         tracker++;
     }
