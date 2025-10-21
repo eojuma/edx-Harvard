@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
 int factorial(int n);
+
 int main(void){
-int num=get_int("Num: \n");
-factorial(num);
+int num=get_int("Num: ");
+printf("%d\n",factorial(num));
 }
 
 int factorial(int n){
