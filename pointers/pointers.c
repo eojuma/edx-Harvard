@@ -5,4 +5,7 @@ int main(void){
     int *p=&calls;  //p holds the address of calls  and *p gives you the value stored at that adrees which is 4
     printf("%p\n",&calls);  // or  printf("%p\n",p);
     printf("%d\n",*p);
+
+    int *p=2;
+    printf("%d\n",*p)
 }
