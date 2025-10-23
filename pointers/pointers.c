@@ -6,6 +6,7 @@ int main(void){
     printf("%p\n",&calls);  // or  printf("%p\n",p);
     printf("%d\n",*p);
 
-    int *p=2;
-    printf("%d\n",*p)
+     *p=2;  // This changes the value of calls from 4 to 2
+    printf("%d\n",*p);
+    printf("%d\n",calls);
 }
